@@ -1,7 +1,7 @@
 <template>
-  <div id="app">
-    fdsaf
-  </div>
+  <main class="main">
+    <router-view/>
+  </main>
 </template>
 
 <script lang="ts">
@@ -12,4 +12,5 @@ export default {
 </script>
 
 <style lang="scss">
+@import "@/styles/_base.scss";
 </style>
