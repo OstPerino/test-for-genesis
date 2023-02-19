@@ -10,7 +10,7 @@
 </template>
 
 <script lang="ts">
-import {defineComponent, reactive } from "@vue/runtime-core";
+import {computed, defineComponent, reactive} from "@vue/runtime-core";
 
 import { dropdownOptions } from "@/components/types/dropdownTypes";
 
